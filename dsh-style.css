@@ -1,0 +1,262 @@
+﻿/* Color Palette
+background image opacity: 180,184,185, 0.5
+*/
+
+/* Global styles
+-------------------------*/
+
+body	{
+	font-family: "Comic Sans MS";
+	background-color: black;
+}
+
+.container	{
+	margin: auto 25px auto 25px;
+	background-color: beige;
+}
+
+/*Styles heading and subheading*/
+.heading	{ 
+		width: 100%;
+		text-align: center;
+		font-size: 80px;
+		color: black;
+}
+
+.subHeading	{
+	font-family: 'Courgette', cursive;
+	height: 80px;
+	width: 100%;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*Styles navigation*/
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:transparent;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color:silver;}
+
+ul.topnav li a.active {background-color: gray;  color: white; border: thin black solid;}
+
+.profile-img {
+  border-radius: 50%;
+  margin: 10px;
+  float: right;
+  border: medium black solid;
+}
+
+
+.alpha-bg {
+  height: 1000px;
+  padding: 10px;
+  color: #000;
+  height: auto;
+  /* sets the color with alpha transparency */
+  background: rgba(255,255,255, 0.5);
+  border: thin black solid;
+  height:auto;
+}
+
+.home-bg { 
+	background-color: skyblue;	
+  /* sets gradient and image */
+  background: linear-gradient(rgba(127, 131, 132, 0.1),
+                 rgba(180,184,185, 0.1)),
+                 url('dsh-home-bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: auto;
+                 
+}
+
+.about-alpha-bg {
+  height: 1000px;
+  padding: 10px;
+  color: #000;
+  height: auto;
+  /* sets the color with alpha transparency */
+  background: rgba(255,255,255, 0.5);
+  border: thin black solid;
+  height: 1000px;
+}
+
+.about-home-bg { 
+	background-color: skyblue;
+  /* sets gradient and image */
+  background: linear-gradient(rgba(127, 131, 132, 0.1),
+                 rgba(180,184,185, 0.1)),
+                 url('dsh-about-bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;                 
+}
+
+.dsh-photos-bg { 
+	background-color: skyblue;
+  /* sets gradient and image */
+  background: linear-gradient(rgba(127, 131, 132, 0.1),
+                 rgba(180,184,185, 0.1)),
+                 url('dsh-about-bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;                 
+}
+
+
+
+/***POSTS****/
+.post-title	{
+	text-align: center;
+}
+
+.posts	{
+	width: 80%;
+	margin: 10px auto 10px auto;
+	padding: 10px 20px 10px 20px;
+	border: thin black solid;	
+	background-color: white;
+}
+
+.post-heading	{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.date	{
+	font-weight: bold;
+	font-size: large;
+}
+
+.page-text	{
+	width: 80%;
+	padding: 10px 20px 10px 20px;
+	border: thin black solid;
+	margin: auto;
+	background-color: antiquewhite;
+}
+
+
+.post-text	{
+	/*background-color: white;*/	
+}
+
+
+
+/***PHOTOS****/
+
+.before-and-after-bg	{
+ /* sets gradient and image */
+  background: linear-gradient(rgba(127, 131, 132, 0.2),
+                 rgba(180,184,185, 0.8)),
+                 url('bm-about-bg.jpg') cover no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;                 
+}
+
+/*.gallery-container	{
+	width: 80%;
+	padding: 10px 20px 10px 20px;
+	border: thin black solid;
+	margin: auto;
+	background-color: antiquewhite;
+}/*
+
+
+
+.about-bg	{
+ /* sets gradient and image
+  background: linear-gradient(rgba(127, 131, 132, 0.5),
+                 rgba(180,184,185, 0.8)),
+                 url('bm-about-bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;                 
+} */
+
+
+
+/*.w3-display-container	{
+	margin: auto;
+	width: 360px;
+	border: thick black solid;
+	text-align: center;
+}*/
+
+.footer	{
+		text-align: center;
+		position:absolute;
+		bottom:0;
+		width:100%;
+		height:25px;			/* Height of the footer */
+}
+
+
+
+/******PHOTOS*****/
+
+.gallery {
+	float: left;
+    width: 180px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.gallery2 {
+	float: left;
+    width: 180px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;    
+}
+
+
+
+.desc {
+    text-align: center;
+    font-size:medium;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}

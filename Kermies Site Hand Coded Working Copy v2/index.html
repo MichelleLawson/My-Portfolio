@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!--JavaScript-->
+
+
+ 
+<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" />
+<title>Home - Bookmarked Memories</title>
+</head>
+
+<body>
+<div class="home-bg"><!--**image-bg**-->
+  <div class="alpha-bg"><!-----@@alpha-bg@@-->
+    <img class="profile-img" src="images/Chris.jpg" alt="Photo of Chris Dunlap" />  
+    <ul class="topnav">
+      <li><a class="active" href="../index.html">Home</a></li>
+      <li><a href="html/portfolio.html">Portfolio</a></li>
+      <li><a href="html/about.html">About</a></li>
+      <li><a href="html/testimonials.html">Testimonials</a></li>
+      <li><a href="html/contact.html">Request a Quote</a></li>
+    </ul>
+  
+    <header class="heading">
+      Bookmarked Memories
+      <div class="subHeading">Professional Photography by Chris Dunlap</div>
+    </header>
+    
+      <div class="w3-content w3-display-container">
+       <img class="mySlides" src="images/lake2.jpg" alt="Photo of a lake" height="360" width="360" />
+        <img class="mySlides" src="images/nature.jpg" alt="Photo of another area of the lake" height="360" width="360" />
+        <img class="mySlides" src="images/handflower.jpg" alt="Photo of a childs hand holding a sprig of flowers" height="360" width="360"  />
+        <img class="mySlides" src="images/woodlake.jpg" alt="Photo of branches on the lakeshore" height="360" width="360" />
+    
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+   
+  <footer class="footer"><!----##footer##-->
+    Bookmarked Memories 2018<br />
+    Website created and managed by <a href="http://michellelawson.biz/">Michelle Lawson</a>
+    
+  </footer>
+    </div><!---------------------@@alpha-bg@@-->
+</div><!------------------**image-bg-->
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,314 @@
+﻿/*CSS Document for CSS final project
+CIS 290 at Edmonds Community College
+Author: Michelle Lawson
+September 2013*/
+
+/*Reset rule*/
+
+body	{
+			font-family:Verdana;
+			font-size:9pt;
+}
+
+		
+div#container	{
+			height:2000px;
+									
+}	
+						
+
+#topBar	{
+			background: rgb(195,216,37); /* Old browsers */
+			background: -moz-linear-gradient(top,  rgba(195,216,37,1) 73%, rgba(230,240,163,1) 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(73%,rgba(195,216,37,1)), color-stop(100%,rgba(230,240,163,1))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  rgba(195,216,37,1) 73%,rgba(230,240,163,1) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  rgba(195,216,37,1) 73%,rgba(230,240,163,1) 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  rgba(195,216,37,1) 73%,rgba(230,240,163,1) 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  rgba(195,216,37,1) 73%,rgba(230,240,163,1) 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3d825', endColorstr='#e6f0a3',GradientType=0 ); /* IE6-9 */
+			height:10%;
+			width:100%;	
+			color:white;										
+}
+				
+#issueNo	{	
+				float:left;
+				font-size:medium;
+				margin-top:50px;
+				margin-left:15px;												
+}
+
+#issue	{	color:black;
+}
+
+#title	{	
+			float:right;
+			font-size: 150px;
+}
+
+
+#subtitle	{	float:right;
+				margin-top:50px;
+				color:black;
+}
+
+.page1Heading	{	width:100%;
+					padding:15px;
+					color:yellowgreen;					
+					font-size:28pt;				
+	
+}
+
+#rightBar	{
+				height:2200px;
+				width:12%;	
+				padding:10px;
+				float:right;
+				background-color:midnightblue;										
+}
+				
+.rightHeading1	{
+					font-family:arial;
+					font-size:16pt;
+					color:white;
+					text-align:right;					
+}
+
+.TOCPageNumber	{
+					font-family:arial;
+					font-size:8pt;
+					color:orange;
+					font-weight:bold;
+					float:right;
+}
+			
+
+.TOC1	{
+			font-family:arial;
+			font-size:8pt;
+			color:white;
+			text-align:left;
+}
+
+#leftBar	{	
+				height:2200px;
+				width:12%;
+				padding:10px;	
+				float:left;	
+				background-color:midnightblue;
+				color:white;									
+}
+				
+.leftHeading1	{
+					color:orange;					
+					font-size:25px;		
+}
+				
+.leftHeadingTextgreen	{
+							color:greenyellow;												
+}
+
+
+.leftHeading2	{
+					color:orange;
+					font-size:18px;
+}
+				
+#mainBar	{
+				width:70%;
+				padding:20px;
+				float:right;
+}
+	
+			
+#columnRight	{	
+					
+					padding:15px;
+					text-align:justify;
+					height:90%;
+					width:45%;
+					float:right;
+}
+
+.rightHeading2	{
+					color:orange;					
+					font-size:25px;		
+}
+				
+.rightHeadingWhite	{	font-family:arial;
+						font-size:13pt;
+						color:white;
+						text-align:left;
+}
+
+.rightTextWhite	{	color:white;
+}
+
+
+#columnLeft	{	
+				padding:15px;
+				text-align:justify;
+				height:90%;
+				width: 45%;
+				float:left;
+}
+
+#address	{
+				font-family:arial;
+				font-size:16pt;
+				color:black;
+				
+}	
+
+/*page two three column body*/	
+
+#pg2ColumnRight	{
+	
+					padding:15px;
+					text-align:justify;
+					height:90%;
+					width:20%;
+					text-align:justify;
+					float:right;
+}				
+
+#pg2ColumnLeft	{
+					padding:15px;
+					text-align:justify;
+					height:90%;
+					width:20%;
+					float:left;				
+}
+
+#pg2ColumnCenter	{
+					padding:15px;
+					text-align:justify;
+					height:90%;
+					width:25%;
+					float:right;
+}
+
+
+.p2Heading	{	
+				padding:15px;
+				text-align:justify;
+				width:53%;
+				font-family:Arial;
+				font-size:20pt;
+				color:blue;
+				float:right;
+				
+}
+
+p2image	{
+				float:left;
+				height:250px;
+				width:300px;
+			
+}
+
+.leftHeadingSmaller	{
+						color:orange;					
+						font-size:15px;
+						width:54%;
+						float:right;	
+}
+
+#page3image	{	float:left;
+				height:250px;
+				width:300px;
+			
+		
+}
+
+
+#pg3ColumnRight	{
+	
+					padding:15px;
+					text-align:justify;
+					height:90%;
+					width:20%;
+					text-align:justify;
+					float:right;
+}				
+
+#pg3ColumnLeft	{
+					padding:15px;
+					text-align:justify;
+					height:90%;
+					width:20%;
+					float:left;				
+}
+
+#pg3ColumnCenter	{
+					padding:15px;
+					text-align:justify;
+					height:90%;
+					width:25%;
+					float:right;
+}
+
+.p3Heading	{	
+				padding:15px;
+				text-align:justify;
+				width:53%;
+				font-family:Arial;
+				font-size:20pt;
+				color:blue;
+				float:right;
+				
+}
+
+
+
+#p3inset	{
+	border:thin black solid;
+	width:25%;
+	height:20%;
+	background-color:#9966FF;
+	font-family:Arial;
+	color:yellow;
+	float:right;
+}
+	
+#p3insetTitle	{
+	padding:5px;
+	background-color:midnightblue;
+	font-family:Arial;
+	font-weight:bolder;
+	color:white;
+}
+
+#Q	{
+	padding:5px;
+	font-family:Arial;
+	font-size:12pt;
+	font-weight:bolder;
+	color:orange;
+	
+}
+
+#insetColumnRight	{
+	padding:15px;
+	height:90%;
+	width:40%;
+	float:right;
+
+}
+
+
+#insetColumnLeft	{
+	padding:15px;
+	height:90%;
+	width:40%;
+	float:left;
+	
+}
+/*blockquote	{
+width:270px;
+border:thin solid black;
+	text-align:center;
+	font-size:large;
+	float:right;	
+}
+*/

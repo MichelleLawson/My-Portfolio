@@ -1,0 +1,147 @@
+﻿/***********************************************************************
+GLOBAL STYLES
+***********************************************************************/
+
+
+/*Sets default margin and padding to 0px*/
+*	{
+	margin:0px;
+	padding:0px;
+}
+
+/*Sets default style for body, unless an element's styling is stated otherwise*/
+body	{
+	text-align:center;
+	font-family: 'Playfair Display', serif;	padding:0;
+	font-size:14px;
+	background-image:url('desktop.jpg')  /*Wooden desktop image*/
+}
+
+/*Style Main container*/
+#bigWrapper	{
+	background-image:url('paper.png'); /*Resume paper image*/
+	margin: 15px 15px 15px 15px;
+	border:1px solid black;	
+	width:800px;	
+	margin: 15px auto;
+	padding: 20px;
+	text-align:left;
+}
+
+
+/* Ensures all elements are displayed as block elements*/
+header, section, footer, article	{
+	display:block;
+}
+
+/*Styles h1 tags*/
+h1	{
+	font-size:20px;
+}
+
+.info h1	{
+	font-size:30px;
+}
+
+h2	{
+	font-size:16px;
+	color:black;
+	padding:0;
+}
+
+.info h2	{
+	font-size: 22px;
+}
+
+h3	{
+	font-size:12px;
+	font-family: Tahoma;
+	color:black;
+	padding:0;
+}
+
+/*Styles header which holds image, name, title, contact information*/
+header	{
+	font-family: 'Playfair Display', serif;	padding:0;
+	font-size:14px;
+	padding: 10px;
+	height: 140px;
+	margin-bottom: 10px;
+}
+
+header h1	{
+	font-size: 40px;
+}
+
+header h2	{
+	font-size: 20px;
+}
+
+/*Styles image*/
+img	{
+	margin-right: 5px;
+	padding: 5px;	
+	float: left;	
+	border: thin black solid;
+}
+
+/*Style name and title*/
+.info	{
+		display: block;
+		margin-left: 10px;
+		font-weight:bold;
+}
+
+/*Style links*/
+/*Sets default color of links to blue, bold, no decoration*/
+a:link {
+	color:blue; font-weight:bold; text-decoration:none;
+} 
+
+/* When link is hovered over, sets color to blue w/underline */
+a:hover {
+	color:blue; text-decoration:underline;
+}  
+
+/* When link is visited, sets color to purple */ 
+a:visited {
+	color:purple; text-decoration:none;
+}
+
+/*Styes summary section*/
+.summary	{	
+	display: block;
+}
+
+/*styles blocks of text to indent them*/
+.content-wrap	{
+	margin-left: 10px; 
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+
+/*Styles skills sections*/
+.content-wrap2	{
+	margin-left:50px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	margin-top: 0px;
+}
+
+/*Styles ul subheadings*/
+.ulSubheading	{
+	text-decoration: underline;
+	margin-top: 5px;
+}
+
+/*Styles the footer*/
+#TheFooter	{
+	font-size:22px;
+	font-weight:bold;
+	color:white;
+	text-align:center;
+	width: 90%;
+	text-align:center;
+	margin-bottom:10px;
+	padding:20px;	
+}
